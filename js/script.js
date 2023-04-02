@@ -192,9 +192,3 @@ function clearmove() {
 
 
 
-const restartBtn = document.getElementById("restartBtn");
-
-restartBtn.addEventListener("click", () => {
-  // Reload the current page to restart the game
-  window.location.reload();
-});
