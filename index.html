@@ -7,9 +7,13 @@
     <title>Space Traveler</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./spaceship.png">
-
 </head>
 <body onload="startGame()">
+    <div class="btns" style="text-align:center;width:480px;">
+        <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+        <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+        <button id="restartBtn">Restart Game</button>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
