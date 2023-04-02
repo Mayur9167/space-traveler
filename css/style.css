@@ -1,0 +1,12 @@
+body{
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+canvas {
+  border: 1px solid #d3d3d3;
+  background-image: url('../images/space.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
